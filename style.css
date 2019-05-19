@@ -1,0 +1,520 @@
+section.about-1{
+    height: 600px;
+    width: 100% auto;
+    background: url('image/c4.jpg') center center;
+    opacity:02;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+    align-content: center;
+    display:flex;
+}
+
+
+/**Navbar**/
+#nav{
+    background-color: rgb(88, 39, 4);
+}
+
+#navtabs > li >a{
+    color: white;
+}
+.btn{
+    color: white;
+}
+
+#navtabs > li >a:hover{
+    color: white;
+    background-color: darkgoldenrod;
+    background-size: cover;
+	border-radius: 20%;
+}
+
+
+#inputgroup{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+#responsivenavbar{
+    justify-content: center;
+}
+
+#togbutton{
+    justify-content: flex-end;
+    margin-left: auto;
+	background-color: white;
+}
+/**Navbar-end**/
+
+
+#mhheader{
+    font-family: cursive;
+    text-align:center;
+    font-size: 50px;
+    font-size-adjust: auto;
+    color: white;
+}
+
+#mhmuted{
+    font-size: 40px;
+    text-align: center;
+    font-family: cursive;
+    color: whitesmoke;
+}
+
+@media(min-width:50px) and (max-width:720px){
+    #mhheader{
+        font-size:30px;
+    }
+    #mhmuted{
+        font-size:20px;
+    }
+}
+
+#about{
+    background-color: saddlebrown;
+    width: 100%;
+    height: 500px ;
+    display: flex;
+}
+
+#aboutcontainer{
+    display: flex;
+    align-items: center;
+}
+
+
+#sectheader{
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+}
+
+#sectmuted{
+    font-family: cursive;
+    font-size: 35px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+@media(min-width:50px) and (max-width:720px){
+    #sectheader{
+        font-size:30px;
+    }
+    #sectmuted{
+        font-size:20px;
+    }
+
+}
+
+#knowmorebtn{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#h3{
+    text-align: center;
+}
+
+#htmuted{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/**Home Section**/
+
+#home{
+    width: 100% auto;
+    height: 600px;
+    background: url(image/c4.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#homecontainer{
+    display: table;
+    width: 100% auto;
+    height: 100%;
+	margin-left: 160px;
+}
+
+#home-title{
+    display: table-cell;
+	vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+	margin-top: 100px;
+}
+
+#home-title >h1{
+	display: flex;
+	font-size: 60px;
+	color: white;
+	justify-content: center;
+}
+
+
+#home-title >p{
+	color: white;
+	font-size: 30px;
+}
+
+
+#home-title >a{
+	color: white;
+}
+
+
+
+
+
+@media(min-width:100px) and (max-width:999px){
+    #inputgroupouter{
+        display: none;
+    }
+}
+
+@media(min-width:999px){
+    #inputgroup{
+        display: none;
+    }
+    
+    #servebox{
+    height: 360px;
+    width: 300px;
+    background-color: saddlebrown;
+    box-shadow: 4px 4px black;
+}
+
+#servebox{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 40px;
+  
+}
+
+#serveboxone{
+    height: 360px;
+    width: 300px;
+    background-color: saddlebrown;
+    box-shadow: 4px 4px black;
+}
+
+#serveboxone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+}
+
+
+#services{
+    background: url('image/c5.jpg') center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
+    justify-content: center;
+    display:flex;
+}
+
+#responsivenavbar > ul> li{
+    margin-left: 20px;
+}
+
+#serveboxicon{
+    justify-content: center;
+}
+
+
+
+
+#services > #servrbox{
+    float: left;
+}
+
+#servebox{
+    height: 360px;
+    width: 300px;
+    background-color: saddlebrown;
+    box-shadow: 4px 4px black;
+}
+
+#servebox{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-right: 40px;
+    text-align: center;
+  
+}
+
+#serveboxone{
+    height: 360px;
+    width: 300px;
+    background-color: saddlebrown;
+    box-shadow: 4px 4px black;
+}
+
+#serveboxone{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media(min-width:100px) and (max-width:999px){
+   
+    #servebox{
+        height: 200px;
+        width: 150px;
+    }
+    
+     h4 > p {
+    font-size: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+    
+    #hourglasstxtp{
+     font-size:20px;
+        display: flex;
+        text-align: center;
+    }
+    
+    #serveboxone{
+        height: 200px;
+        width: 150px;
+    }
+    
+    #hourglassfa{
+    display: flex;
+    justify-content: center;
+        font-size: 50px;
+}
+    
+    h3 > p {
+    font-size: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+    
+    h3 >#hourglasstxts{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    h4 >#paperplanetxt{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+
+
+
+
+#hourglassfa{
+    display: flex;
+    justify-content: center;
+}
+
+    
+h3 > p {
+    font-size: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+h4 > p {
+    font-size: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#hourglasstxts{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+#paperplanetxt{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+
+#paperplanetxt{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: cursive;
+}
+}
+
+
+
+
+#foot{
+    height: 200px auto;
+    width: 100%;
+    background-color: rgb(88, 39, 4);
+}
+
+
+
+#ccontainer{
+    display: flex;
+    align-content: flex-end;
+}
+
+#contact{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    width: 300px;
+    height: 200px;
+    background-color: saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .footercontent > h5{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-style: italic;
+        font-family: cursive;
+    }
+    
+    #footpara{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    #spans{
+        text-align: center;
+    }
+#spans >a {
+	margin:0px 10px;
+}
+
+
+#spans >a:hover{
+	color:brown;
+	cursor: pointer;
+}
+
+#copy{
+   display: flex;
+   align-items: flex-start;
+    color: white;
+}
+    
+
+
+
+
+/*serviceboxes*/
+
+
+.services-bg{
+
+}
+
+.service-box--one{
+    float: left;
+}
+
+.service-box--two{
+    float: right;
+}
+
+.service-box--one{
+    margin: 30px 0px;
+    background-color: saddlebrown;
+}
+.service-box--one >i{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.service-box--one > h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.service-box--one > hr{
+    width: 60px;
+    background-color: saddlebrown;
+    height: 2px;
+}
+
+.service-box--one > p{
+    display: flex;
+    text-align: center;
+    color: white;
+    padding:10px; 
+}
+
+
+
+
+
+.service-box--two{
+    margin: 30px 0px;
+    background-color: saddlebrown;
+}
+
+.service-box--two >i{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.service-box--two > h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.service-box--two > hr{
+    width: 60px;
+    background-color: saddlebrown;
+    height: 2px;
+}
+
+.service-box--two > p{
+    display: flex;
+    text-align: center;
+    color: white;
+    padding:10px; 
+}
+
+
+

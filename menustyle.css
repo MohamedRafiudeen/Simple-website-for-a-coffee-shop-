@@ -1,0 +1,181 @@
+<!--Menustyles-->
+
+<!--Navbar-->
+
+header.masthead{
+    height: 600px;
+    width: 100% auto;
+    background: url('image/c4.jpg') center center;
+    opacity:02;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+    display:flex;
+}
+
+#nav{
+    background-color:  rgb(88, 39, 4);
+}
+#inputgroup{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+#responsivenavbar{
+    justify-content: center;
+}
+
+#togbutton{
+    justify-content: flex-end;
+    margin-left: auto;
+	background-color: white;
+}
+
+@media(min-width:100px) and (max-width:999px){
+    #inputgroupouter{
+        display: none;
+    }
+}
+
+@media(min-width:999px){
+    #inputgroup{
+        display: none;
+    }
+
+#navtabs > li >a{
+    color: white;
+}
+}
+
+#responsivenavbar > ul> li{
+    margin-left: 20px;
+}
+#navtabs > li >a:hover{
+    color: white;
+    background-color: darkgoldenrod;
+    background-size: cover;
+}
+
+
+
+
+#bgimage{
+    background:url('image/c5.jpg');
+    height: 100% auto;
+    width: 100% auto;
+}
+
+#bgimage{
+    display: flex;
+    
+    background-attachment: fixed;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#menubg{
+    height: 100% auto;
+    width: 1100px auto;
+    background-color: goldenrod;
+    background-attachment: fixed;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px;
+}
+
+#menuheader{
+    color: saddlebrown;
+    font-family: cursive;
+    font-size: 40px;
+    margin-top: 120px;
+    padding-top: 30px;
+}
+
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration:underline;
+}
+
+p{
+    font-size: 20px;
+    font-style: italic;
+    color: saddlebrown;
+    display: flex;
+    justify-content: center;
+
+}
+
+#foot{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(88, 39, 4);
+}
+
+
+
+#ccontainer{
+    display: flex;
+    align-content: flex-end;
+}
+
+#contact{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(88, 39, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .footercontent > h5{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-style: italic;
+        font-family: cursive;
+    }
+    
+    #footpara{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    #spans{
+        text-align: center;
+    }
+
+
+@media(max-width:676px)
+{
+	#menubg > p{
+		font-size: 16px;
+	}
+}
+
+@media(max-width:525px)
+{
+	 #menubg > p{
+		font-size: 10px;
+	}
+}
+
+
+#copy{
+   display: flex;
+   align-items: flex-start;
+}
+
+@media(min-width:100px)and(max-width:400px){
+    h1 >p{
+        font-size: 10px;
+    }
+}
